@@ -36,9 +36,7 @@
         </ul>
       </div>
       <div class="button">
-        <button type="submit">
-          <a href="/Live/live.html" target="_blank"></a>CULTE EN LIVE
-        </button>
+        <button type="submit"><a href="/Live/live.html" target="_blank"></a>CULTE EN LIVE</button>
       </div>
     </header>
 
@@ -56,19 +54,23 @@
 
       <section class="contacts-down">
         <div class="formulaire">
-          <h2>Formulaire de contact</h2>
+          <h2>Merci de compléter</h2>
           <form action="#" method="post">
-            <div class="name">
+            <div>
               <label for="prenom">Prénom </label>
               <input type="text" id="prenom" name="prenom" placeholder="Jean-Pierre" required />
+              </div>
+              <div>
               <label for="nom">Nom </label>
               <input type="text" id="nom" name="nom" placeholder="Dupont" required />
             </div>
             
-            <div class="address">
+            <div>
               <label for="email">Email </label>
               <input type="email" id="email" name="email" placeholder="jpdupont@wanadoo.fr" required />
-              <label for="telephone">Téléphone :</label>
+              </div>
+              <div>
+              <label for="telephone">Téléphone </label>
               <input type="tel" id="telephone" name="telephone" placeholder="06 58 12 78 00" required />
             </div>
           
@@ -81,13 +83,14 @@
                 <option value="autre">Autre</option>
               </select>
             </div>
-            <div>
-              <label for="message">Message :</label>
+            <div class="message">
+              <label for="message">Message </label><br>
               <textarea
                 id="message"
                 name="message"
                 rows="10"
-                cols="100"
+                cols="45"
+                placeholder="Ton message ici..."
                 required
               ></textarea>
             </div>

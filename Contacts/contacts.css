@@ -1,15 +1,19 @@
+
 h1{
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 20px;
+    font-size: 3rem;
 }
 
 .contacts-top{
     text-align: center;
     width: 500px;
-   margin: 0 auto;
-   margin-bottom: 100px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    color: black;
+   
 }
 
 .contacts-down{
@@ -17,7 +21,7 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 50px;
+    margin-top: 30px;
 
 }
 
@@ -33,10 +37,11 @@ h1{
 }
 
 .formulaire{
-    height: 550px;  
+    height: 700px;  
+    width: 400px;
 }
 
-.formulaire .sujet{
+.sujet{
     margin-bottom: 15px;
 }
 
@@ -46,22 +51,45 @@ h1{
 
 .formulaire input{
     margin-bottom: 15px;
-
     padding: 10px;
     border-radius: 5px;
-}
-
-input#prenom{
-    margin-right: 20px;
-    width: 250px;
-}
-
-input#nom{
-    width: 250px;
+    cursor: pointer;
+    border-color: rgba(51, 95, 51, 0.582) ;
 }
 
 
+input#prenom,
+input#nom,
+input#email,
+input#telephone{
+width: 350px;
+}
 
+
+select#sujet{
+    
+    padding: 8px;
+    width: 350px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.message label{
+    padding-bottom: 5px;
+}
+
+form button{
+    margin-top: 10px;
+    width: 350px;
+    color:#fff;
+    text-transform: uppercase;
+    background-color:rgb(51, 95, 51) ;
+    }
+
+form button:hover{
+    color:rgba(51, 95, 51, 0.582);
+    background-color:#fff ;
+    }
 
 
 .card img{
@@ -73,8 +101,3 @@ input#nom{
 
 
 
-button{
-    margin-top: 20px;
-    width: 700px;
-   
-}
