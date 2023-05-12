@@ -29,6 +29,7 @@ body{
     background-size: cover;
     width: 100%;
     min-width: 1105px;
+   
  }
 
 
@@ -40,7 +41,7 @@ body{
 
 header{
     
-    height: 30%;
+    height: 250px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -49,17 +50,18 @@ header{
     padding: 40px;
     background-color: rgba(51, 95, 51, 0.503);
     position: fixed;
- 
-}
+ }
+
+ .logo{
+    text-align: center;
+ }
 
 .logo img{
-    margin-left: 25px;
     height: 80px;
     border-radius: 40%;
 }
 
 .logo p{
-
 margin-top: 15px;
 text-align: center;
 text-transform:uppercase;
@@ -104,7 +106,7 @@ padding-left: 10%;
 }
 
 button{
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
     margin-right: 35%;
     border: none;
@@ -115,6 +117,8 @@ button{
     color: red;
     font-weight: bold;
     cursor: pointer;
+    width: 150px;
+    text-align: center;
 }
 
 button:hover{
@@ -139,6 +143,7 @@ button:hover{
 footer {
     padding: 25px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.247);
