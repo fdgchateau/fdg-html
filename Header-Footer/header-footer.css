@@ -6,32 +6,43 @@
     
     
 }
+
+/*Body*/
 body{
-    color: white;
+    
     height: 100%;
-}
-
-
-header{
-    background: url(https://images.unsplash.com/photo-1580243152089-98da42694285?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80) no-repeat no-repeat fixed;
-    height: 500px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px;
+    background: url(https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80) no-repeat no-repeat fixed;
     background-size: cover;
-   background-color:silver;
-   
  
 }
 
-img{
-    height: 120px;
+
+
+
+/*header*/
+
+header{
+    
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: rgba(51, 95, 51, 0.503);
+    
+ 
+}
+
+.logo img{
+    margin-left: 25px;
+    height: 70px;
     border-radius: 50%;
 }
 
 .logo p{
+
 margin-top: 15px;
 text-align: center;
 }
@@ -42,6 +53,7 @@ span{
 
 .menu ul{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
    
@@ -62,22 +74,17 @@ ul li a:hover{
     color: red;
 }
 
-.reseaux{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.reseaux img{
-  margin-top: 105px;
-    height: 50px;
-    margin-right: 20px;
-    cursor: pointer;
+img{
+  margin-top: -15px;
+  height: 40px;
+  margin-right: 20px;
+  cursor: pointer;
 
 }
 
 button{
-    padding: 50px;
+    padding: 30px;
     border-radius: 10px;
     margin-right: 35%;
     border: none;
@@ -95,5 +102,12 @@ button:hover{
 }
 
 
+/*footer*/
 
+
+footer{
+    height: 20%;
+    background-color: rgba(51, 95, 51, 0.503);
+    position: fixed;
+}
 
