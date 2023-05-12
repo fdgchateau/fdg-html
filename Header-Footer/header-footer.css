@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300;1,400&display=swap');
+
 /*
 ╔═════════════════════════════════════════════════════════════════════════╗
 ║••••••••••••••••••••••••••••CSS GLOBAL••••••••••••••••••••••••••••••••••║
@@ -14,13 +16,19 @@
     box-sizing: border-box;
 }
 
+:root{
+    font-family: 'Roboto', sans-serif;
+}
+
 
 body{
     margin: 0px;
+    height: 200vh;
     min-height: 100%;
     background: url(https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80) no-repeat no-repeat fixed;
     background-size: cover;
     width: 100%;
+    min-width: 1105px;
  }
 
 
@@ -32,7 +40,7 @@ body{
 
 header{
     
-    height: 20%;
+    height: 30%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -40,7 +48,7 @@ header{
     justify-content: space-around;
     padding: 40px;
     background-color: rgba(51, 95, 51, 0.503);
-    
+    position: fixed;
  
 }
 
@@ -77,8 +85,8 @@ li{
 ul li a{
     padding-right: 60px;
     text-decoration: none;
-    color: white;
-    font-weight: 700;
+    color:#fff;
+    font-weight: bold;
 }
 
 ul li a:hover{
@@ -100,19 +108,26 @@ button{
     border-radius: 10px;
     margin-right: 35%;
     border: none;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.400);
+    box-shadow: 0 8px 32px 0 rgb(51, 95, 51);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
     color: red;
-    font-weight: 800;
+    font-weight: bold;
     cursor: pointer;
 }
 
 button:hover{
-    background-color: rgb(105, 105, 177);
+    background-color: rgb(51, 95, 51) ;
+    color: #fff;
 }
 
+
+
+
+@media screen and (min-width: 1121px) {
+    /* Ajoutez ici les styles CSS que vous souhaitez appliquer à partir de 1121px de large */
+  }
 
 /*
 ╔═════════════════════════════════════════════════════════════════════════╗
@@ -122,11 +137,27 @@ button:hover{
 
 
 footer {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.247);
     width: 100%;
-    height: 150px;
+    height: 200px;
     bottom:0;
     position: fixed;
      
 }
+
+footer ul li{
+    margin: 10px;
+}
+
+footer ul li p{
+    color: #fff;
+    font-style: italic;
+}
+
+
+
 
