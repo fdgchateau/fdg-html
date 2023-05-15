@@ -1,0 +1,36 @@
+h1{
+font-size: 2rem;
+text-align: center;
+text-transform: uppercase;
+}
+
+.top,
+.col
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.image-box{
+    width: 400px;
+    height: 250px;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.400);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.image-box img{
+    padding-bottom: 30px;
+    width: 50%;
+    height:80%;
+    border-radius: 80%;
+}
