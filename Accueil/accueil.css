@@ -34,12 +34,14 @@
   .box-image{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     text-align: center;
     justify-content: center;
   }
 
   .box-image img{
-    height: 200px;
+
+    height: 200PX;
     border-radius: 30%;
   }
 
@@ -49,4 +51,38 @@
     margin-left: 225px;
     color: #fff;
     font-size: 1.5rem;
+    color: #fff;
+  }
+
+  .mission{
+    width: 70%;
+
+    margin: 0 auto;
+
+   
+  }
+
+  .mission p{
+    padding-top: 30px;
+  }
+
+.home-down{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    align-items: center;
+
+}
+  .logo-partenaires{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    align-items: center;
+    justify-content: center;
+  }
+
+ .home-down .reseaux a{
+    padding-top: 25px;
   }
