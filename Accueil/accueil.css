@@ -105,24 +105,28 @@ section.home-down{
     margin-top: 50px;
     margin: 55px;
     padding: 25px;
-    background-color: #ffffff80;
+    background-color: #ffffff2f;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.400);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
   }
 
-  .adress-details{
-    width: 40%;
+  .adress-detail{
+    width: 30%;
     margin-right: 25px;
-    text-align: end;
+    text-align: center;
     padding: 15px;
     
   }
 
+  .adress-detail h3{
+margin-bottom: 25px;
+  }
+
 .adress-card{
-    height:50% ;
-    width: 50%;
+    height:70% ;
+    text-align: end;
 }
 
   .adress-card img{
@@ -130,7 +134,3 @@ section.home-down{
  height: 80%;
  
   }
-.adress-card button{
-    margin-top: 25px;
-
-}
