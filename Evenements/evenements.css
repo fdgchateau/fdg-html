@@ -2,6 +2,102 @@ h1{
     margin-top: 20px;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-size: 3rem;
+}
+
+h2{
+    margin-bottom: 25px;
+    text-align: center;
+    color: rgb(158, 207, 74);
+    margin-top: 25px;
+}
+
+h3{
+    margin-bottom: 25px;
+}
+
+.evenements-top{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+    justify-content: space-around;
+}
+
+.evenements-top p,
+.evenements-top h3{
+   text-align: center; 
+}
+
+.evenements-top p{
+    margin-bottom: 20px;
+   font-style: italic;
+}
+
+
+
+.assemblee{
+   display: flex;
+   flex-direction: column;
+
+}
+
+.culte, 
+.jeune, 
+.homme{
+    margin-bottom: 20px;
+}
+
+
+.assemblee, 
+.jeunes, 
+.adults{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+margin-bottom: 20px;
+}
+
+.assemblee img, 
+.jeunes img, 
+.adults img{
+    width: 200px;
+    height: 200px;
+    width: 100%;
+      
+}
+
+.evenements-down{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+}
+
+.evenements-down h2{
+    text-align: center;
+}
+
+.jeunesetprieres img{
+    height: 300px;
+    width: 300px;
+
+
+}
+
+.sport{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.volley img,
+.football img{
+height: 150px;
+width: 100%;
+width: 200px;
+
 }

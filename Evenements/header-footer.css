@@ -24,8 +24,8 @@
 body{
     margin: 0px;
     min-height: 100%;
-    background: url(https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80) no-repeat no-repeat fixed;
-    background-size: cover;
+    /*background: url(https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80) no-repeat no-repeat fixed;
+    background-size: cover;*/
     width: 100%;
     min-width: 1105px;
    
@@ -87,7 +87,7 @@ ul li a{
     padding-right: 60px;
     text-decoration: none;
     color:#fff;
-    font-weight: bold;
+   text-transform: uppercase;
 }
 
 ul li a:hover{
@@ -139,7 +139,7 @@ button:hover{
 */
 
 main{
-    height: 1000px;
+    height: 1500px;
     padding: 50px;
 }
 
