@@ -47,7 +47,8 @@ header{
     flex-direction: row;
     justify-content: space-around;
     padding: 40px;
-    background-color: rgba(51, 95, 51, 0.503);
+    background-color:rgba(49, 58, 21, 0.707)
+    /*background-color: rgba(51, 95, 51, 0.503);*/
     
  }
 
@@ -64,7 +65,7 @@ header{
 margin-top: 15px;
 text-align: center;
 text-transform:uppercase;
-color:  rgb(51, 95, 51);
+color: #fff;
 }
 
 span{
@@ -106,13 +107,8 @@ padding-left: 10%;
 
 button{
     padding: 20px;
-    border-radius: 10px;
-    margin-right: 35%;
+     margin-right: 35%;
     border: none;
-    box-shadow: 0 8px 32px 0 rgb(51, 95, 51);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border-radius: 10px;
     color: red;
     font-weight: bold;
     cursor: pointer;
@@ -132,16 +128,7 @@ button:hover{
     /* Ajoutez ici les styles CSS que vous souhaitez appliquer à partir de 1121px de large */
   }
 
-  /*
-╔═════════════════════════════════════════════════════════════════════════╗
-║••••••••••••••••••••••••••••CSS MAIN•••••••••••••••••••••••••••••••••••║
-╚═════════════════════════════════════════════════════════════════════════╝
-*/
 
-main{
-    height: 1500px;
-    padding: 50px;
-}
 
 
 

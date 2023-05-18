@@ -1,3 +1,16 @@
+  /*
+╔═════════════════════════════════════════════════════════════════════════╗
+║••••••••••••••••••••••••••••CSS MAIN•••••••••••••••••••••••••••••••••••║
+╚═════════════════════════════════════════════════════════════════════════╝
+*/
+
+main{
+    height:2000px;
+    padding: 50px;
+}
+
+
+
 .carousel-container {
     position: relative;
     width: 100%;
@@ -37,21 +50,33 @@
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
+    margin-bottom: 25px;
   }
 
   .box-image img{
 
-    height: 200PX;
-    border-radius: 30%;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    padding: 0;
+    margin: 10px;
+    border: 4px solid rgb(95, 175, 196);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.400);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
   }
 
   .box-image p{
-    position: absolute;
-    margin-top: -150px;
-    margin-left: 225px;
-    color: #fff;
-    font-size: 1.5rem;
-    color: #fff;
+    padding: 15px;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 45px;
+    border: 3px solid  rgb(95, 175, 196);
+    border-radius: 15px;
+    width: 200px;
+    text-align: center;
+    color: rgb(95, 175, 196);
+    
   }
 
   .mission{
@@ -90,6 +115,7 @@ section.home-down{
 
   .home-down .reseaux h2{
     text-align: center;
+    font-size: 2rem;
   }
 
  .home-down .reseaux img{

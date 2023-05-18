@@ -62,7 +62,7 @@ header{
 margin-top: 15px;
 text-align: center;
 text-transform:uppercase;
-color:  rgb(51, 95, 51);
+color: #fff;
 }
 
 span{
@@ -107,10 +107,6 @@ button{
     border-radius: 10px;
     margin-right: 35%;
     border: none;
-    box-shadow: 0 8px 32px 0 rgb(51, 95, 51);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border-radius: 10px;
     color: red;
     font-weight: bold;
     cursor: pointer;
@@ -131,15 +127,7 @@ button:hover{
   }
 
   /*
-╔═════════════════════════════════════════════════════════════════════════╗
-║••••••••••••••••••••••••••••CSS MAIN•••••••••••••••••••••••••••••••••••║
-╚═════════════════════════════════════════════════════════════════════════╝
-*/
 
-main{
-    height:1800px;
-    padding: 50px;
-}
 
 
 

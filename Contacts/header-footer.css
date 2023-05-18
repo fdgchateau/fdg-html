@@ -64,7 +64,7 @@ header{
 margin-top: 15px;
 text-align: center;
 text-transform:uppercase;
-color:  rgb(51, 95, 51);
+color: #fff;
 }
 
 span{
@@ -132,16 +132,9 @@ button:hover{
     /* Ajoutez ici les styles CSS que vous souhaitez appliquer à partir de 1121px de large */
   }
 
-  /*
-╔═════════════════════════════════════════════════════════════════════════╗
-║••••••••••••••••••••••••••••CSS MAIN•••••••••••••••••••••••••••••••••••║
-╚═════════════════════════════════════════════════════════════════════════╝
-*/
 
-main{
-    height: 1200px;
-    padding: 50px;
-}
+
+
 
 
 

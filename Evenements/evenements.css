@@ -1,3 +1,17 @@
+  /*
+╔═════════════════════════════════════════════════════════════════════════╗
+║••••••••••••••••••••••••••••CSS MAIN•••••••••••••••••••••••••••••••••••║
+╚═════════════════════════════════════════════════════════════════════════╝
+*/
+
+
+
+main{
+    height: 1550px;
+    
+}
+
+
 h1{
     margin-top: 20px;
     text-align: center;
@@ -7,21 +21,26 @@ h1{
 }
 
 h2{
-    margin-bottom: 25px;
-    text-align: center;
-    color: rgb(158, 207, 74);
+    padding: 55px;
+   text-align: end;
+    color:  rgba(0, 0, 0, 0.418);
     margin-top: 25px;
+    font-size: 1.5rem;
+
 }
 
 h3{
     margin-bottom: 25px;
+    text-align: center;
 }
 
-.evenements-top{
+section.evenements-top{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 35px;
-    justify-content: space-around;
+    
+    justify-content: center;
+    width: 100%;
+    margin: 0;
 }
 
 .evenements-top p,
@@ -38,66 +57,116 @@ h3{
 
 .assemblee{
    display: flex;
+   flex-wrap: wrap;
    flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
 
 }
-
-.culte, 
-.jeune, 
-.homme{
-    margin-bottom: 20px;
-}
-
 
 .assemblee, 
 .jeunes, 
 .adults{
 display: flex;
-flex-direction: column;
+flex-wrap: wrap;
+flex-direction: row;
 justify-content: space-around;
-margin-bottom: 20px;
+
 }
 
-.assemblee img, 
-.jeunes img, 
-.adults img{
-    width: 200px;
+.culte, 
+.disciple,
+.jeune,
+.kids, 
+.femme,
+.homme{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
     height: 200px;
-    width: 100%;
+    margin-right: 20px;
+    margin-bottom: 30px;
+  
       
 }
 
+
+
+.image img{
+    width: 200px;
+    height: 200px;
+    border: 4px solid rgb(136, 136, 86);
+    margin: 0;
+    padding: 0;
+    border-radius:20%;
+    
+}
+
 .evenements-down{
-    margin-top: 100px;
+    margin-top: 20px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-   justify-content: space-evenly;
+ 
 }
+ .list{
+    padding: 5px;
+    width: 25%
+ }
+ .affiche{
+    width: 30%;
+ }
 
-.evenements-down h2{
-    text-align: center;
-}
-
-.jeunesetprieres img{
-    height: 300px;
-    width: 300px;
-
-
-}
 
 .sport{
     margin-top: 100px;
     margin-bottom: 100px;
+    margin-left: 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    width: 20%;
 }
 
 .volley img,
 .football img{
-height: 150px;
-width: 100%;
-width: 200px;
+height: 200px;
+width: 150px;
+padding: 0px;
+border-radius: 5px;
 
+}
+
+.evenements-list{
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(136, 136, 86, 0.521);
+   width: 100%;
+
+   
+}
+
+.affiche img{
+    display: inline;
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+.evenements-contacts{
+    padding-left: 25px;
+    width: 30%;
+    text-align: center;
+    
+}
+.evenements-contacts img{
+    width: 25;
 }
