@@ -20,3 +20,24 @@ h1{
     margin-bottom: 20px;
     font-size: 3rem;
 }
+
+.actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.actions-top{
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.place,
+.courrier,
+.virement{
+    width: 350px;
+    margin: 25px;
+    padding: 25px;
+    border: 1px solid black;
+}

@@ -43,9 +43,11 @@ h1{
     background-color: #ffffff36;
     padding: 25px;
     border-radius: 5px;
-    box-shadow: 0 8px 32px 0 rgb(51, 95, 51);
+    box-shadow: 0 8px 32px 0 rgba(177, 144, 56, 0.503);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
+    background-color: rgb(175, 175, 84);
+    color: #fff;
 }
 
 .formulaire{
@@ -66,7 +68,7 @@ h1{
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
-    border-color: rgba(51, 95, 51, 0.582) ;
+    border-color: rgba(177, 144, 56, 0.503) ;
 }
 
 
@@ -95,17 +97,20 @@ form button{
     width: 350px;
     color:#fff;
     text-transform: uppercase;
-    background-color:rgb(51, 95, 51) ;
+    background-color:rgba(37, 37, 35, 0.503) ;
     }
 
 form button:hover{
-    color:rgba(51, 95, 51, 0.582);
-    background-color:#fff ;
+    color:#fff;
+    background-color:peru ;
     }
 
 
 .card img{
-    width: 100%;
+    width: 450px;
+    height: 450px;
+    margin: 0;
+    padding: 0;
 }
 
 

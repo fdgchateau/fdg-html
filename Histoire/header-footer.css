@@ -47,7 +47,7 @@ header{
     flex-direction: row;
     justify-content: space-around;
     padding: 40px;
-    background-color: rgba(51, 95, 51, 0.503);
+    background-color:rgb(207, 143, 146);
     
  }
 
@@ -87,7 +87,8 @@ ul li a{
     padding-right: 60px;
     text-decoration: none;
     color:#fff;
-    text-transform: uppercase
+    font-size: 1.3rem;
+    text-transform: uppercase;
     
 }
 
@@ -110,11 +111,8 @@ button{
     border-radius: 10px;
     margin-right: 35%;
     border: none;
-    box-shadow: 0 8px 32px 0 rgb(51, 95, 51);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
-    color: red;
+    color: rgb(160, 58, 58);
     font-weight: bold;
     cursor: pointer;
     width: 150px;
