@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="accueil.css" />
     <link rel="stylesheet" href="header-footer.css">
-    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    
     <title>Accueil</title>
   </head>
 
@@ -42,16 +43,13 @@
      <!--main-->
     <main>
     <section class="home-top">
-        <div class="carousel-container">
-            <div class="carousel-slide">
-              <img src="https://images.unsplash.com/photo-1503428593586-e225b39bddfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Slide 1">
-            </div>
-            <div class="carousel-slide">
-              <img src="https://images.unsplash.com/photo-1522158637959-30385a09e0da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Slide 2">
-            </div>
-            <div class="carousel-slide">
-              <img src="https://images.unsplash.com/photo-1560523160-754a9e25c68f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1136&q=80" alt="Slide 3">
-            </div>
+        <div class="slider">
+            <img src="/Assets/camp2023.JPG" alt="Slide 1" class="img_slider" active>
+            <img src="/Assets/summer_camp.png" alt="Slide 2" class="img_slider">
+            <img src="/Assets/camp2023.JPG" alt="Slide 3" class="img_slider">
+            <div class="suivant"><i class="fas fa-circle-chevron-right" ></i></div>
+            <div class="precedent"><i class="fas fa-circle-chevron-left" ></i></div>
+            
           </div>
       <div class="valeurs">
         <h2>Nos valeurs : église familiale sans frontières</h2>
@@ -173,6 +171,6 @@
       </li>
     </ul>
   </footer>
-  <script src="/fdg-chateau-front/Accueil/accueil.js"></script>
+  <script src="accueil.js"></script>
   </body>
 </html>

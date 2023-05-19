@@ -5,6 +5,9 @@
 */
 
 main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     height:2000px;
     padding: 50px;
 }
@@ -13,33 +16,44 @@ h2{
     font-size: 1.5rem;
 }
 
-
-.carousel-container {
+.slider{
+    height: 50vh;
     position: relative;
-    width: 100%;
-    height: 300px; /* Ajustez la hauteur selon vos besoins */
-    overflow: hidden;
-  }
-  
-  .carousel-slide {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-  }
-  
-  .carousel-slide.active {
-    opacity: 1;
-  }
-  
-  .carousel-slide img {
-    width: 100%;
-    height: 100%;
+}
+
+.slider img{
+    margin: 0;
+    padding: 0;
     object-fit: cover;
-  }
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+   }
+
+.suivant, .precedent{
+    transition: transform 0.5s;
+    color:#fff;
+    font-size:3rem;
+    position: absolute;
+    top: 50%;
+
+}
+
+.suivant{
+    right: 1rem;
+}
+.precedent{
+    left: 1rem;
+}
+
+.suivant:hover,
+.precedent:hover{
+    cursor: pointer;
+    color: rgb(143, 202, 202);
+}
+
+
 
   .valeurs{
     padding: 25px;
