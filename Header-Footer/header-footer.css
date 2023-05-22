@@ -48,7 +48,7 @@ header{
     flex-direction: row;
     justify-content: space-around;
     padding: 40px;
-    background-color: rgb(60, 122, 151);
+  /*  background-color: rgb(60, 122, 151);*/
     
  }
 
@@ -59,13 +59,14 @@ header{
 .logo img{
     height: 80px;
     border-radius: 40%;
+    padding: 0;
 }
 
 .logo p{
 margin-top: 15px;
 text-align: center;
 text-transform:uppercase;
-color: #fff;
+color: rgb(19, 21, 134);
 }
 
 span{
@@ -84,17 +85,23 @@ li{
     list-style: none;
 }
 
-ul li a{
+.menu ul li a{
     padding-right: 60px;
     text-decoration: none;
-    color:#fff;
+    color: grey;
     font-size: 1.3rem;
+    padding: 15px;
+    margin-right: 15px;
     text-transform: uppercase;
+    
 }
 
-ul li a:hover{
-    color: red;
+.menu ul li a:hover{
+    color:#FFF;
+    background-color: rgb(54, 116, 197);
+    background-size:contain;
 }
+
 
 
 img{
@@ -110,20 +117,16 @@ button{
     padding: 20px;
     border-radius: 10px;
     margin-right: 35%;
-    border: none;
-    box-shadow: 0 8px 32px 0 rgb(51, 95, 51);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border-radius: 10px;
     color: red;
     font-weight: bold;
     cursor: pointer;
     width: 150px;
     text-align: center;
+    border: none;
 }
 
 button:hover{
-    background-color: rgb(51, 95, 51) ;
+    background-color: rgb(54, 116, 197) ;
     color: #fff;
 }
 

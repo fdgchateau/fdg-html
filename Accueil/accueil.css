@@ -8,12 +8,41 @@ main{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height:2000px;
-    padding: 50px;
+    height:2500px;
+  
 }
 
 h2{
     font-size: 1.5rem;
+}
+
+.slidefdg{
+   background: url(/Assets/photo-eglise.JPG) no-repeat no-repeat  center;
+   box-sizing: cover;
+   height: 300px;
+   width: 100%;
+   margin-bottom: 50px;
+ 
+}
+
+h1{
+text-align: center;
+font-size: 2rem;
+font-style: italic;
+color: #fff;
+padding: 25px;
+text-align:center;
+}
+
+.citation{
+margin: 0 auto;
+text-align: center;
+height: 150px;
+font-size: 1.5rem;
+}
+
+blockquote{
+    font-weight: bold;
 }
 
 .slider{
@@ -122,6 +151,10 @@ section.home-down{
     margin-bottom: 25px;
     align-items: center;
     justify-content: center;
+  }
+
+  .logo-partenaires img{
+    height: 60px;
   }
 
   .home-down .reseaux{

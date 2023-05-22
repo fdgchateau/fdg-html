@@ -39,7 +39,7 @@ h1{
 .courrier,
 .virement{
     width: 350px;
-    height: 350px;
+    height: 200px;
     margin: 50px;
     padding: 25px;
     border-radius: 10px;
@@ -59,14 +59,17 @@ h2{
 
 .place{
     background-color: rgb(151, 106, 106);
+    color:#fff;
 }
 
 .courrier{
     background-color: rgb(145, 203, 221);
+    color:#fff;
 }
 
 .virement{
     background-color: rgba(51, 95, 51, 0.503);
+      color:#fff;
 }
 
 .actions-down{

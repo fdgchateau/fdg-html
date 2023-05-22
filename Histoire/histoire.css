@@ -17,6 +17,7 @@ h1{
     text-transform: uppercase;
     margin-bottom: 20px;
     font-size: 3rem;
+    color:  rgba(12, 12, 167, 0.692);
 }
 
 .carousel img{
