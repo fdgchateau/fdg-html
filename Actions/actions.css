@@ -36,8 +36,7 @@ h1{
 }
 
 .place,
-.courrier,
-.virement{
+.courrier{
     width: 350px;
     height: 200px;
     margin: 50px;
@@ -53,22 +52,32 @@ h1{
   cursor: pointer;
 }
 
+.virement{
+    width: 350px;
+    height: 350px;
+    margin: 50px;
+    padding: 25px;
+    border-radius: 10px;
+    transition: transform 0.5s;
+    font-size: 0.8rem;
+}
+
 h2{
     padding-bottom: 15px;
 }
 
 .place{
-    background-color: rgb(151, 106, 106);
+    background-color:  rgb(19, 21, 134);
     color:#fff;
 }
 
 .courrier{
-    background-color: rgb(145, 203, 221);
+    background-color: rgb(19, 21, 134);
     color:#fff;
 }
 
 .virement{
-    background-color: rgba(51, 95, 51, 0.503);
+    background-color:  rgb(19, 21, 134);
       color:#fff;
 }
 
