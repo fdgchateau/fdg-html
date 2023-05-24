@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300;1,400&display=swap');
 
+
 /*
 ╔═════════════════════════════════════════════════════════════════════════╗
 ║••••••••••••••••••••••••••••CSS GLOBAL••••••••••••••••••••••••••••••••••║
@@ -17,6 +18,11 @@
 }
 
 :root{
+    --color1:#fff;
+    --color2:rgb(54, 116, 197);
+    --color3:grey;    
+ 
+
     font-family: 'Roboto', sans-serif;
 }
 
@@ -64,7 +70,7 @@ header{
 margin-top: 15px;
 text-align: center;
 text-transform:uppercase;
-color: rgb(19, 21, 134);
+color: var(--color2);
 }
 
 span{
@@ -86,7 +92,7 @@ li{
 .menu ul li a{
     padding-right: 60px;
     text-decoration: none;
-    color: grey;
+    color: var(--color3);
     font-size: 1.3rem;
     padding: 15px;
     margin-right: 15px;
@@ -95,8 +101,8 @@ li{
 }
 
 .menu ul li a:hover{
-    color:#FFF;
-    background-color: rgb(54, 116, 197);
+    color:var(--color1);
+    background-color: var(--color2);
     background-size:contain;
 }
 
@@ -114,7 +120,7 @@ button{
     padding: 20px;
     border-radius: 10px;
     margin-right: 35%;
-    color: red;
+    color: var(--color2);
     font-weight: bold;
     cursor: pointer;
     width: 150px;
@@ -123,8 +129,8 @@ button{
 }
 
 button:hover{
-    background-color: rgb(51, 95, 51) ;
-    color: #fff;
+    background-color:var(--color2) ;
+    color:var(--color1);
 }
 
 
@@ -153,8 +159,8 @@ footer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.247);
+    justify-content:space-around;
+    background-color: var(--color2);
     width: 100%;
     height: 200px;
     bottom:0;
@@ -169,16 +175,20 @@ footer ul li{
 }
 
 footer ul li p{
-    color: #fff;
+   margin-bottom: 5px;
     font-style: italic;
 }
 
 footer ul li a{
     text-decoration: none;
+    color: var(--color1);
 }
 
 footer ul li a:hover{
-    color: #FFF;
+    background-color: var(--color1);
+    color: var(--color2);
+    padding: 5px;
+    border-radius: 5px;
 }
 
 
