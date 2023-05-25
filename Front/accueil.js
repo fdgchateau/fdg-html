@@ -1,3 +1,34 @@
+
+let tl = gsap.timeline();
+
+tl.from('.logo, .menu',{
+    duration: 0.75,
+    opacity:0
+});
+
+tl.from('.slidefdg h1',{
+  duration:0.75,
+  opacity:0,
+  x:'100%',
+  
+})
+tl.from('.button',{
+    duration:0.75,
+    opacity:0,
+    x:'100%',
+    
+  })
+
+
+
+
+
+
+
+
+
+
+
 // récupération de l'ensemble des images
 let img_slider = document.getElementsByClassName('img_slider');
 
@@ -45,4 +76,11 @@ setInterval(function(){
     enleverActiveImages();
     img_slider[etape].classList.add('active');
 },3000)
+
+
+
+
+
+
+
 

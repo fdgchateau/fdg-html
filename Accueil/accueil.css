@@ -8,30 +8,46 @@ main{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height:2500px;
+    height:2300px;
   
 }
 
 h2{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .slidefdg{
-   background: url(/Assets/photo-eglise.JPG) no-repeat no-repeat  center;
+   background: url(https://images.unsplash.com/photo-1580243152089-98da42694285?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80) no-repeat no-repeat  center;
    box-sizing: cover;
-   height: 300px;
+   height: 500px;
    width: 100%;
    margin-bottom: 50px;
  
 }
 
-h1{
+.slidefdg h1{
 text-align: center;
-font-size: 2rem;
-font-style: italic;
+font-size: 5rem;
 color: #fff;
 padding: 25px;
 text-align:center;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.slidefdg .button{
+    margin-left: 45%;
+}
+
+.slidefdg button{
+    padding: 20px;
+    border-radius: 20px;
+    color: var(--color2);
+    font-weight: bold;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+   
 }
 
 .citation{
@@ -39,6 +55,7 @@ margin: 0 auto;
 text-align: center;
 height: 150px;
 font-size: 1.5rem;
+color: var(--color2);
 }
 
 blockquote{
@@ -100,6 +117,11 @@ blockquote{
     margin-bottom: 30px;
   }
 
+  .valeurs h2{
+    color: var(--color2);
+    font-size: 2rem;
+  }
+
   .box-image{
     display: flex;
     flex-direction: row;
@@ -116,7 +138,7 @@ blockquote{
     border-radius: 100%;
     padding: 0;
     margin: 10px;
-    border: 4px solid rgb(95, 175, 196);
+    border: 4px solid var(--color2);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.400);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
@@ -127,11 +149,12 @@ blockquote{
     margin-top: 15px;
     margin-right: 10px;
     margin-left: 45px;
-    border: 3px solid  rgb(95, 175, 196);
+    border: 3px solid  var(--color2);;
     border-radius: 15px;
     width: 200px;
     text-align: center;
-    color: rgb(95, 175, 196);
+    color: var(--color2);
+   /* color: rgb(95, 175, 196);*/
     
   }
 
@@ -143,46 +166,35 @@ blockquote{
 
   .mission p{
     padding-top: 30px;
-    margin-bottom: 25px;
+   padding-bottom: 50px;
+   text-align: center;
   }
 
-section.home-down{
+.home-down{
     display: flex;
     flex-direction: column;
     margin-top: 5px;
     align-items: center;
+}
 
+.home-down h2{
+    color: var(--color2);
 }
   .logo-partenaires{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    margin-top: 45px;
+    margin-top: 55px;
     margin-bottom: 25px;
     align-items: center;
     justify-content: center;
+    
   }
 
   .logo-partenaires img{
     height: 60px;
   }
 
-  .home-down .reseaux{
-    margin-top: 35px;
-    text-align: center;
-    text-decoration: none;
-  }
-
-  .home-down .reseaux h2{
-    text-align: center;
-    font-size: 2rem;
-  }
-
- .home-down .reseaux img{
-    margin-top: 25px;
-    width: 25px;
-    
-  }
 
   .adress{
     display: flex;
@@ -196,10 +208,12 @@ section.home-down{
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
+    width: 70%;
+
   }
 
   .adress-detail{
-    width: 30%;
+    width: 100%;
     margin-right: 25px;
     text-align: center;
     padding: 15px;
@@ -211,12 +225,12 @@ margin-bottom: 25px;
   }
 
 .adress-card{
-    height:70% ;
-    text-align: end;
+    height:30% ;
+   
 }
 
   .adress-card img{
- width: 80%;
- height: 80%;
+ width: 100%;
+ height: 100%;
  
   }

@@ -7,8 +7,8 @@
     <!--Font-awesome qui permet de lire des images sans devoir les télécharger-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="accueil.css" />
     <link rel="stylesheet" href="header-footer.css">
     
@@ -19,7 +19,7 @@
     <!--header-->
     <header>
         <div class="logo">
-            <a href="/Accueil/accueil.html"><img src="https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/308797067_457724386390512_6760712331243953889_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=_9l3AjqPEGEAX9RRzjk&_nc_ht=scontent-cdg4-2.xx&oh=00_AfBx7kD73GUrl4NYjlO--wORdMCjhKIYW9C4UtT4W70bOw&oe=6461747F" alt="logo"></a>
+            <a href="/Accueil/accueil.html"><img src="/Assets/logo.jpg" alt="logo"></a>
           <p>Eglise <br /><span>Fontaine de Grâce</span></p>
         </div>
         <div class="menu">
@@ -48,8 +48,12 @@
     <main>
     <section class="home-top">
         <div class="slidefdg">
-<h1>Bienvenue à l'église Fontaine de Grâce</h1>
+<h1>Bienvenue</h1>
+<div class="button">
+<a href="/Live/live.html" target="_blank"><button type="submit">CULTE EN LIVE</button></a>
+  </div>
         </div>
+        
         <div class="citation">
             <figure>
            <blockquote>
@@ -64,27 +68,26 @@
             <img src="/Assets/semaine jeunes et prieres.JPG" alt="Slide 3" class="img_slider">
             <div class="suivant"><i class="fas fa-circle-chevron-right" ></i></div>
             <div class="precedent"><i class="fas fa-circle-chevron-left" ></i></div>
-            
-          </div>
+        </div>
       <div class="valeurs">
         <h2>Nos valeurs : église familiale sans frontières</h2>
       </div>
       <div class="box-image">
         <div>
           <img src="https://images.unsplash.com/photo-1600038734220-7e3c079bf982?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80" alt="image servir" /><br>
-          <p>Santé spirituelle</p>
+          <p>La prière</p>
         </div>
         <div>
           <img src="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="image donner" /><br>
-          <p>Santé financière</p>
+          <p>Les oeuvres bonnes</p>
         </div>
         <div>
           <a href="http://"><img src="https://images.unsplash.com/photo-1438232992991-995b7058bbb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80" alt="image participer" /><br></a>
-          <p>Santé physique</p>
+          <p>La Louange</p>
         </div>
         <div>
           <img src="https://images.unsplash.com/photo-1527525443983-6e60c75fff46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=385&q=80" alt="Avenir" /><br>
-          <p>Santé relationnelle</p>
+          <p>La communion fraternelle</p>
         </div>
       </div>
       <div class="mission">
@@ -92,10 +95,7 @@
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur
           numquam architecto id dicta officia quaerat, ipsum, harum cum minima
           ab iure doloribus quis consectetur repellendus fugiat dolore vero
-          magnam sint?  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur
-          numquam architecto id dicta officia quaerat, ipsum, harum cum minima
-          ab iure doloribus quis consectetur repellendus fugiat dolore vero
-          magnam sint?
+          magnam sint?  
         </p>
       </div>
     </section>
@@ -121,9 +121,7 @@
        
         </div>
       </div>
-      <div class="reseaux">
-        <h2>Vous pouvez également retrouver toute notre actualité <br>sur les réseaux</h2>
-        <a href="https://www.instagram.com/">Instagram</a> et <a href="https://www.facebook.com/eglisefontainedegrace/?locale=fr_FR" id="facebook">Facebook</a>
+        
       </div>
       <div class="adress">
         <div class="adress-detail">
@@ -146,7 +144,7 @@
 </main>
 <!--footer-->
 <footer>
-    <ul>
+    <ul class="a-propos">
       <li>
         <a href="/Evenements/evenements.html" target="_blank">A propos</a>
       </li>
@@ -157,7 +155,7 @@
         <a href="/Evenements/evenements.html" target="_blank">Actualités</a>
       </li>
     </ul>
-    <ul>
+    <ul class="footer-reseau">
       <li>
         <a
           href="https://www.facebook.com/eglisefontainedegrace/?locale=fr_FR"
@@ -173,14 +171,10 @@
     </ul>
     <ul>
       <li>
-        <p>Eglise Fontaine de Grâce</p>
-        <p>5 rue vieille</p>
-        <p>02400 Château-Thierry</p>
+        <p><strong>Eglise Fontaine de Grâce</strong></p>
+        <p>5 rue vieille, 02400 Château-Thierry</p>
         <p>06 27 14 00 39</p>
-        <a href="mailto:fontainedegrace02@gmail.com" target="_blank"
-          >fontainedegrace02@gmail.com</a
-        >
-      </li>
+    </li>
     </ul>
   </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
